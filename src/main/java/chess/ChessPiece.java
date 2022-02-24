@@ -17,4 +17,8 @@ public class ChessPiece extends Piece {
     }
 
 
+    @Override
+    public boolean[][] possibleMoves() {
+        return new boolean[0][];
+    }
 }
